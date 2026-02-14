@@ -1,8 +1,8 @@
 # Automation Framework
 
 This section will contain my Java + Selenium + TestNG automation framework, including:
-- Page Object Model
-- TestNG suite
-- Maven project structure
-- ExtentReports
-- Sample test scripts
+automation/page-object-model/README.md
+automation/testng-suite/README.md
+automation/maven-structure/README.md
+automation/extentreports/README.md
+automation/sample-tests/README.md
