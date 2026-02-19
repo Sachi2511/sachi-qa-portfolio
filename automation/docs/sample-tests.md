@@ -15,23 +15,6 @@ The goal is to keep tests clean, readable, and maintainable, while separating te
 # 📁 Test Class Location
 
 All test classes are stored under:
-# 🧪 Sample Tests (TestNG + Page Object Model)
-
-This document explains how automated tests are written in this framework using:
-
-- TestNG  
-- Page Object Model (POM)  
-- BaseTest for setup/teardown  
-- DriverFactory1 for browser management  
-- Reusable Page Objects  
-
-The goal is to keep tests clean, readable, and maintainable, while separating test logic from page logic.
-
----
-
-# 📁 Test Class Location
-
-All test classes are stored under:
 
 
 /automation/framework/src/test/java/Practice
