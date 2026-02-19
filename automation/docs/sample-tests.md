@@ -44,15 +44,17 @@ Instead of writing locators or WebDriver code inside tests, we use:
 
 ```java
 Login login = new Login();
-
+```
 This keeps tests readable and business‑focused.
+
 ✔ Tests follow a simple pattern
 - Open the URL
 - Create the page object
 - Call the page method (validLogin, invalidLogin, etc.)
 - Assertions happen inside the page object
 
-~~Example Test Class: LoginTest.java
+# Example Test Class: LoginTest.java
+```java
 package Practice;
 
 import org.testng.annotations.Test;
@@ -73,8 +75,9 @@ public class LoginTest extends BaseTest {
         login.invalidLogin();
     }
 }
+```
 
-## 🧠 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 ### ✔ Extends BaseTest
 No need to write setup or teardown in every test. The BaseTest class handles browser initialization and cleanup automatically.
@@ -84,13 +87,15 @@ Tests interact with clean page objects such as:
 
 ```java
 Login login = new Login();
+```
 This avoids raw WebDriver code inside test classes and keeps tests readable.
-✔ Readable Test Flow
+
+- Readable Test Flow: 
 Each test method contains only the essential steps, usually 3–4 lines long, making the test easy to understand and maintain.
-✔ Assertions Inside Page Object
+- Assertions Inside Page Object: 
 Assertions are placed inside page methods (e.g., validLogin, invalidLogin), keeping tests focused on behaviour rather than UI details.
 
-🏆 Best Practices Followed
+## 🏆 Best Practices Followed
 - No locators inside test classes
 - No WebDriver code inside test classes
 - One test method represents one scenario
@@ -98,7 +103,7 @@ Assertions are placed inside page methods (e.g., validLogin, invalidLogin), keep
 - BaseTest manages browser lifecycle
 - DriverFactory1 manages browser creation and screenshots
 
-📌 Summary
+## 📌 Summary
 This framework uses TestNG and the Page Object Model (POM) to create clean, modular, and scalable automated tests.
 The LoginTest example demonstrates how simple and readable tests become when using:
 - DriverFactory1
