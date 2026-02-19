@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="Practice.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
