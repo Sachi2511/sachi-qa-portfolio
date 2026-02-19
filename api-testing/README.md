@@ -70,4 +70,4 @@ If you're a reviewer:
 
 ## 📫 Notes
 
-This section complements the **automation** and **jira‑workflow** folders by demonstrating backend testing capability, which is essential for hybrid QA roles.
+This section complements the **automation** and **jira‑workflow** folders by demonstrating backend testing capability.
