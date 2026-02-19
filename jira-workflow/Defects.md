@@ -15,22 +15,29 @@ Each defect follows a Jira‑style structure with clear traceability to test cas
 **Linked Test Case:** TC‑LOGIN‑002  
 **Linked User Story:** US‑001  
 
-### 📌 Description  
+### 🌐 Environment
+- Browser: Chrome 122  
+- OS: Windows 11  
+- Environment: QA / Staging  
+- Build Version: v1.0.12  
+- Device: Desktop  
+
+### 📌 Description
 When a user enters invalid login credentials, the application displays a generic error message instead of the expected validation message.
 
-### 🧪 Steps to Reproduce  
+### 🧪 Steps to Reproduce
 1. Navigate to the login page  
 2. Enter an invalid username and/or password  
 3. Click the **Login** button  
 
-### ✔ Expected Result  
+### ✔ Expected Result
 A clear validation message should appear:  
 **“Invalid username or password.”**
 
-### ❌ Actual Result  
+### ❌ Actual Result
 A generic error message is displayed with no clear explanation.
 
-### 📎 Evidence  
+### 📎 Evidence
 N/A (UI behaviour observed during execution)
 
 ---
@@ -45,24 +52,31 @@ N/A (UI behaviour observed during execution)
 **Linked Test Case:** API‑TC‑003  
 **Linked User Story:** US‑004  
 
-### 📌 Description  
+### 🌐 Environment
+- API Environment: QA  
+- Endpoint: `/api/login`  
+- Method: POST  
+- Build Version: API v2.3.4  
+- Authentication: None (public endpoint)  
+
+### 📌 Description
 The Login API returns a **500 Internal Server Error** when invalid credentials are provided.  
 It should return a **401 Unauthorized** response with an appropriate error message.
 
-### 🧪 Steps to Reproduce  
+### 🧪 Steps to Reproduce
 1. Send a POST request to `/api/login`  
 2. Use invalid username/password  
 3. Inspect the API response  
 
-### ✔ Expected Result  
+### ✔ Expected Result
 - HTTP Status: **401**  
 - Body: `{ "error": "Invalid credentials" }`
 
-### ❌ Actual Result  
+### ❌ Actual Result
 - HTTP Status: **500**  
 - Body: Server error response  
 
-### 📎 Evidence  
+### 📎 Evidence
 N/A (API response captured during execution)
 
 ---
@@ -77,23 +91,30 @@ N/A (API response captured during execution)
 **Linked Test Case:** TC‑PROFILE‑001  
 **Linked User Story:** US‑002  
 
-### 📌 Description  
+### 🌐 Environment
+- Environment: QA  
+- Service: Profile Service  
+- API Gateway: v1.9.2  
+- Backend Node: Node‑03  
+- Build Version: Backend v4.1.7  
+
+### 📌 Description
 The Profile page fails to load due to a backend service outage.  
 This prevents execution of all profile‑related test cases.
 
-### 🧪 Steps to Reproduce  
+### 🧪 Steps to Reproduce
 1. Log in with a valid user  
 2. Navigate to **My Profile**  
 3. Observe the page load failure  
 
-### ✔ Expected Result  
+### ✔ Expected Result
 Profile page should load successfully and allow editing of user information.
 
-### ❌ Actual Result  
+### ❌ Actual Result
 - HTTP Status: **500**  
-- Page displays “Service unavailable”  
+- Page displays “Service unavailable”
 
-### 📎 Evidence  
+### 📎 Evidence
 N/A (Environment issue confirmed by DevOps)
 
 ---
@@ -108,7 +129,8 @@ N/A (Environment issue confirmed by DevOps)
 
 ---
 
-# 📌 Notes  
+# 📌 Notes
 - API defect (BUG‑007) impacts UI login validation.  
 - ENV‑12 must be resolved before re‑executing profile test cases.  
-- All defects logged in Jira‑style format for clarity and traceability.
+- All defects logged in Jira‑style format for clarity and traceability.  
+- Environment details added for reproducibility and debugging.
