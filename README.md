@@ -1,6 +1,8 @@
-# 🧪 Sachi-QA Portfolio – End‑to‑End Testing Project (Jira Workflow Simulation)
+# Portfolio – End‑to‑End Testing Project (Jira Workflow Simulation)
 
-Welcome to my QA Portfolio.  
+Welcome! I’m Sachi, a QA Tester passionate about structured testing and real‑world workflows.
+This portfolio reflects my approach to quality: clear, detailed, and industry‑aligned.
+
 This repository showcases a complete, end‑to‑end **manual + hybrid QA workflow**, designed to reflect how real companies structure their testing lifecycle using Jira, documentation standards, and traceability practices.
 
 The project demonstrates my ability to:
