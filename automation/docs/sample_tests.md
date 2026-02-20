@@ -16,7 +16,6 @@ The goal is to keep tests clean, readable, and maintainable, while separating te
 
 All test classes are stored under:
 
-
 /automation/framework/src/test/java/Practice
 
 Example:
