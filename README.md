@@ -119,10 +119,12 @@ Although this is a documentation‑focused portfolio, it reflects real‑world Q
 
 If you're an employer or reviewer:
 
-1. Start with the **documentation** folder to understand the project scope and planning.  
-2. Move to the **jira-workflow** folder to see how I execute a real sprint.  
-3. Review the **Test Execution Report**, **Defects**, and **Test Summary Report** to see my analytical and reporting skills.  
-4. Check the **RTM** to see full traceability across the lifecycle.  
+1. Start with the **documentation** folder to understand the project scope, planning, and high‑level QA strategy.
+2. Move to the **jira-workflow** folder to see how I execute a real sprint, including user stories, acceptance criteria, test cases, defects, and summary reporting.
+3. Review the **Test Execution Report**, **Defects**, and **Test Summary Report** to assess my analytical skills, defect investigation, and reporting clarity.
+4. Check the **RTM** to see full traceability across requirements, test cases, and defects.
+5. Explore the **automation** folder to view my Selenium + Java + TestNG framework, including POM structure, reusable components, sample tests, and ExtentReports.
+6. Visit the **api-testing** folder to see API test cases, defect reporting, and my approach to validating API behaviour using positive, negative, and boundary scenarios.
 
 ---
 
