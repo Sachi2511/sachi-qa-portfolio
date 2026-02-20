@@ -146,15 +146,15 @@ This portfolio is part of my ongoing effort to demonstrate:
 ---
 # 📫 Contact
 
-**Name:** Sachi 
-**Location:** Staines / London (commutable)  
+**Name:** Sachi  
+**Location:** Staines / London (commutable)   
 **Role:** Manual QA Tester (Hybrid QA ready)
 
 ---
 
 # 📫 Connect with me
 
-**Email:** sachi.kayastha@gmail.com 
+**Email:** sachi.kayastha@gmail.com  
 **LinkedIn URL:** https://www.linkedin.com/in/sachi-kayastha-108961315  
 
 ---
