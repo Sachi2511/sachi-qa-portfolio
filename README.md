@@ -21,7 +21,7 @@ This portfolio is organised into four main folders:
 
 ## 1️⃣ /documentation – High‑Level QA Documents  
 These documents represent planning and strategy activities that apply to the entire project.
-/documentation ├── Test-Plan.md ├── Test-Strategy.md ├── RTM.md ├── Risk-Analysis.md ├── Entry-Exit-Criteria.md
+/documentation ├── Test-Plan.md ├── Test-Strategy.md ├── RTM.md ├── Risk-Analysis.md ├── Entry-Exit-Criteria.md  ├── README.md
 
 ### What this folder shows
 - My ability to create structured, industry‑standard QA documentation  
@@ -32,7 +32,7 @@ These documents represent planning and strategy activities that apply to the ent
 
 ## 2️⃣ /jira-workflow – Sprint‑Based Testing Workflow  
 This folder simulates a real Jira sprint cycle, including requirements, test design, execution, and defect management.
-/jira-workflow ├── User-Stories.md ├── Acceptance-Criteria.md ├── Test-Scenarios.md ├── Test-Cases.md ├── Linked-Test-Cases.md ├── Test-Execution-Report.md ├── Defects.md ├── Test-Summary-Report.md
+/jira-workflow ├── User-Stories.md ├── Acceptance-Criteria.md ├── Test-Scenarios.md ├── Test-Cases.md ├── Linked-Test-Cases.md ├── Test-Execution-Report.md ├── Defects.md ├── Test-Summary-Report.md  ├── README.md
 
 ### What this folder shows
 - Ability to break down user stories into testable acceptance criteria  
@@ -45,7 +45,7 @@ This folder simulates a real Jira sprint cycle, including requirements, test des
 ### 3️⃣/automation – Selenium + Java + TestNG Framework (Hybrid QA Section)
 This folder contains a sample UI automation framework demonstrating hybrid QA capability.
 
-/automation ├── docs │ ├── extent-reports.md │ ├── maven-structure.md │ ├── page-object-model.md │ ├── sample-tests.md │ └── testng-suite.md │ └── framework ├── pom.xml ├── testng.xml └── src ├── main/java/Practice │ ├── DriverFactory1.java │ ├── CommonActions.java │ └── Login.java │ └── test/java/Practice ├── BaseTest.java └── LoginTest.java
+/automation  ├── README.md ├── docs ├── extent-reports.md ├── maven-structure.md ├── page-object-model.md ├── sample-tests.md ├── testng-suite.md └── framework ├── pom.xml ├── testng.xml └── src ├── main/java/Practice │ ├── DriverFactory1.java │ ├── CommonActions.java │ └── Login.java │ └── test/java/Practice ├── BaseTest.java └── LoginTest.java
 
 ### What this folder shows
 - Understanding of Java + Selenium WebDriver
