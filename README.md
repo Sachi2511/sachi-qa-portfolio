@@ -130,7 +130,7 @@ If you're an employer or reviewer:
 
 # 👋 About Me
 
-I am a Manual QA Tester actively preparing for hybrid QA roles (manual + automation), and I am ISTQB Foundation Level certified.
+I am a Manual QA Tester actively preparing for hybrid QA roles (manual + automation), and **I am ISTQB Foundation Level certified**.
 My focus is on building real‑world, structured QA workflows that reflect how companies operate.
 
 This portfolio is part of my ongoing effort to demonstrate:
