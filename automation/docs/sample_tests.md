@@ -108,5 +108,5 @@ The LoginTest example demonstrates how simple and readable tests become when usi
 - DriverFactory1
 - BaseTest
 - Page Objects
-- CommonActions
+- CommonActions  
 This structure reflects real‑world automation frameworks
