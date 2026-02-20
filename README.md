@@ -1,6 +1,7 @@
 # Portfolio – End‑to‑End Testing Project (Jira Workflow Simulation)
 
-Welcome! I’m Sachi, a QA Tester passionate about structured testing and real‑world workflows.
+Welcome! I’m Sachi, a QA Tester passionate about structured testing and real‑world workflows.  
+I am also **ISTQB Foundation Level certified**, which strengthens my approach to test design, traceability, and industry‑aligned QA practices.  
 This portfolio reflects my approach to quality: clear, detailed, and industry‑aligned.
 
 This repository showcases a complete, end‑to‑end **manual + hybrid QA workflow**, designed to reflect how real companies structure their testing lifecycle using Jira, documentation standards, and traceability practices.
@@ -101,7 +102,7 @@ If you're an employer or reviewer:
 
 # 👋 About Me
 
-I am a **Manual QA Tester** actively preparing for hybrid QA roles (manual + automation).  
+I am a Manual QA Tester actively preparing for hybrid QA roles (manual + automation), and I am ISTQB Foundation Level certified.
 My focus is on building real‑world, structured QA workflows that reflect how companies operate.
 
 This portfolio is part of my ongoing effort to demonstrate:
@@ -112,12 +113,21 @@ This portfolio is part of my ongoing effort to demonstrate:
 - Continuous improvement  
 
 ---
-
+# 🎓 Certifications
+- ISTQB Foundation Level Certified
+---
 # 📫 Contact
 
 **Name:** Sachi 
 **Location:** Staines / London (commutable)  
 **Role:** Manual QA Tester (Hybrid QA ready)
+
+---
+
+# 📫 Connect with me
+
+**Email:** sachi.kayastha@gmail.com 
+**LinkedIn URL:** https://www.linkedin.com/in/sachi-kayastha-108961315  
 
 ---
 
