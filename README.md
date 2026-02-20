@@ -57,19 +57,18 @@ This folder contains a sample UI automation framework demonstrating hybrid QA ca
 - Ability to automate core UI flows
 ---
 
-### 4️⃣ /api-testing – API Test Cases & Collections
-This folder demonstrates API testing concepts and execution.
+## 4️⃣ /api-testing – API Test Cases & Defect Reporting  
+This folder contains API test cases, defects, and supporting documentation for validating the Login API.
 /api-testing
-├── Postman-Collections
-├── Environment-Files
-├── API-Test-Cases.md
-├── API-Test-Report.md
+├── Login_API_Test_Cases.md
+├── Login_API_Bug.md
+├── README.md
 
 What this folder shows
 - Understanding of API request/response validation
-- Use of Postman or REST Assured
-- Positive, negative, and boundary API tests
-- API defect reporting
+- Positive, negative, and boundary API test cases
+- API defect reporting with clear reproduction steps
+- Ability to analyse API behaviour using status codes, payloads, and error messages
 - Hybrid QA capability beyond UI testing
   
 ---
