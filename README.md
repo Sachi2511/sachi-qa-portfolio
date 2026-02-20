@@ -146,7 +146,7 @@ This portfolio is part of my ongoing effort to demonstrate:
 ---
 # 📫 Contact
 
-**Name:** Sachi  
+**Name:** Sachi Kayastha  
 **Location:** Staines / London (commutable)   
 **Role:** Manual QA Tester (Hybrid QA ready)
 
