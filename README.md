@@ -41,8 +41,37 @@ This folder simulates a real Jira sprint cycle, including requirements, test des
 - Strong test case design skills (positive, negative, edge cases)  
 - Realistic defect reporting using Jira‑style formatting  
 - Clear execution reporting and sprint‑level summaries  
-- End‑to‑end traceability and structured QA thinking  
+- End‑to‑end traceability and structured QA thinking
+---
 
+### 3️⃣/automation – Selenium + Java + TestNG Framework (Hybrid QA Section)
+This folder contains a sample UI automation framework demonstrating hybrid QA capability.
+
+/automation ├── docs │ ├── extent-reports.md │ ├── maven-structure.md │ ├── page-object-model.md │ ├── sample-tests.md │ └── testng-suite.md │ └── framework ├── pom.xml ├── testng.xml └── src ├── main/java/Practice │ ├── DriverFactory1.java │ ├── CommonActions.java │ └── Login.java │ └── test/java/Practice ├── BaseTest.java └── LoginTest.java
+
+### What this folder shows
+- Understanding of Java + Selenium WebDriver
+- Page Object Model (POM) design
+- TestNG suite structure
+- ExtentReports integration
+- Ability to automate core UI flows
+---
+
+### 4️⃣ /api-testing – API Test Cases & Collections
+This folder demonstrates API testing concepts and execution.
+/api-testing
+├── Postman-Collections
+├── Environment-Files
+├── API-Test-Cases.md
+├── API-Test-Report.md
+
+What this folder shows
+- Understanding of API request/response validation
+- Use of Postman or REST Assured
+- Positive, negative, and boundary API tests
+- API defect reporting
+- Hybrid QA capability beyond UI testing
+  
 ---
 
 # 🔍 Project Overview
