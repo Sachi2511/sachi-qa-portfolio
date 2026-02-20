@@ -17,9 +17,7 @@ The project demonstrates my ability to:
 
 # 📁 Repository Structure
 
-This portfolio is organised into two main folders:
-
----
+This portfolio is organised into four main folders:
 
 ## 1️⃣ /documentation – High‑Level QA Documents  
 These documents represent planning and strategy activities that apply to the entire project.
