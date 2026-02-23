@@ -22,9 +22,6 @@ Specifies the conditions that must be met before starting and completing each te
 ### **5️⃣ Risk Analysis**
 Identifies potential risks, their impact, likelihood, and mitigation strategies.
 
-### **6️⃣ Test Summary Report**
-Provides a consolidated view of testing outcomes, defect trends, coverage, and final quality assessment.
-
 ---
 
 ## 🎯 Purpose of This Folder
