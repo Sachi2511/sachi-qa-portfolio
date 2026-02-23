@@ -154,7 +154,6 @@ This portfolio is part of my ongoing effort to demonstrate:
 ---
 
 # 📫 Connect with me
-
 **Email:** sachi.kayastha@gmail.com  
 **LinkedIn URL:** https://www.linkedin.com/in/sachi-kayastha-108961315  
 ---
