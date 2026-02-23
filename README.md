@@ -1,7 +1,7 @@
 # Portfolio – End‑to‑End Testing Project (Jira Workflow Simulation)
 
 Welcome! I’m Sachi, a QA Tester passionate about structured testing and real‑world workflows.  
-I am also **ISTQB Foundation Level certified**, which strengthens my approach to test design, traceability, and industry‑aligned QA practices.  
+I am **ISTQB Foundation Level certified**, which strengthens my approach to test design, traceability, and industry‑aligned QA practices.  
 This portfolio reflects my approach to quality: clear, detailed, and industry‑aligned.
 
 This repository showcases a complete, end‑to‑end **manual + hybrid QA workflow**, designed to reflect how real companies structure their testing lifecycle using Jira, documentation standards, and traceability practices.
