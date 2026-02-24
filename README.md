@@ -68,6 +68,24 @@ What this folder shows
 - API defect reporting with clear reproduction steps
 - Ability to analyse API behaviour using status codes, payloads, and error messages
 - Hybrid QA capability beyond UI testing
+---
+## 5️⃣ /sql-testing – SQL Queries for Data Validation & Backend Verification
+This folder contains SQL queries used for backend data validation, test data setup, and defect investigation. These queries support UI and API testing by ensuring that the application’s database behaves correctly and consistently with business rules.
+/sql-testing
+├── basic-queries.sql
+├── joins-and-aggregations.sql
+├── test-data-setup.sql
+├── data-validation-queries.sql
+├── bug-investigation-queries.sql
+├── README.md
+
+What this folder shows
+- Ability to validate backend data using SQL
+- Understanding of table relationships, joins, and aggregations
+- Skill in preparing and cleaning test data for QA activities
+- Experience verifying API/UI behaviour against database records
+- Capability to investigate defects using SQL queries
+- Strong hybrid QA approach combining UI, API, and DB validation
   
 ---
 
@@ -77,7 +95,8 @@ This project simulates a typical web application with core modules such as:
 - Login  
 - Password Reset  
 - Profile Management  
-- Authentication API  
+- Authentication API
+- Backend Database (SQL)
 
 The goal is to demonstrate a **complete QA lifecycle**, including:
 - Requirement analysis  
@@ -85,8 +104,10 @@ The goal is to demonstrate a **complete QA lifecycle**, including:
 - Test execution  
 - Defect logging  
 - Reporting  
-- Traceability  
-
+- Traceability
+- API Validation
+- Backend data validation (SQL)
+  
 ---
 
 # 🧰 Tools & Technologies Used
@@ -96,7 +117,8 @@ Although this is a documentation‑focused portfolio, it reflects real‑world Q
 - Confluence‑style documentation  
 - Markdown for GitHub formatting  
 - Manual UI testing  
-- API testing concepts  
+- API testing concepts
+- SQL for backend data validation & test data setup
 - ISTQB‑aligned test design techniques  
 
 ---
@@ -106,7 +128,8 @@ Although this is a documentation‑focused portfolio, it reflects real‑world Q
 - Requirement analysis & decomposition  
 - Test scenario and test case design  
 - Boundary value & negative testing  
-- API validation concepts  
+- API validation concepts
+- SQL queries for backend verification
 - Defect reporting (Jira format)  
 - Sprint‑based QA workflow  
 - Traceability (RTM)  
@@ -125,6 +148,12 @@ If you're an employer or reviewer:
 4. Check the **RTM** to see full traceability across requirements, test cases, and defects.
 5. Explore the **automation** folder to view my Selenium + Java + TestNG framework, including POM structure, reusable components, sample tests, and ExtentReports.
 6. Visit the **api-testing** folder to see API test cases, defect reporting, and my approach to validating API behaviour using positive, negative, and boundary scenarios.
+7. Finally, open the sql-testing folder to view SQL queries used for:
+- Backend data validation
+- Verifying API responses against database records
+- Preparing and cleaning test data
+- Investigating defects and data inconsistencies
+This demonstrates a complete hybrid QA skillset across UI, API, and database layers.
 
 ---
 
