@@ -9,7 +9,8 @@ This repository showcases a complete, end‑to‑end **manual + hybrid QA workfl
 The project demonstrates my ability to:
 - Analyse requirements  
 - Design test scenarios and test cases  
-- Execute tests and report defects  
+- Execute tests and report defects
+- Perform backend data validation using SQL
 - Produce professional QA documentation  
 - Maintain traceability across the entire lifecycle  
 
