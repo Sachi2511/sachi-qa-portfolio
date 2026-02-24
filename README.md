@@ -153,7 +153,7 @@ If you're an employer or reviewer:
 - Backend data validation
 - Verifying API responses against database records
 - Preparing and cleaning test data
-- Investigating defects and data inconsistencies
+- Investigating defects and data inconsistencies  
 This demonstrates a complete hybrid QA skillset across UI, API, and database layers.
 
 ---
