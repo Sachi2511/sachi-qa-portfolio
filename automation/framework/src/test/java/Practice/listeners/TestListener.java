@@ -47,7 +47,6 @@ public class TestListener implements ITestListener {
     } catch (IOException e) {
         ExtentTestManager.getTest().warning("Failed to attach screenshot: " + e.getMessage());
     }
-
     }
 
     @Override
