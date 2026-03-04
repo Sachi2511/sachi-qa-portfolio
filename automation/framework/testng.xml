@@ -2,7 +2,9 @@
 <suite name="Automation Suite">
 
     <parameter name="browser" value="chrome"/>
-
+     <listeners>
+        <listener class-name="Practice.listeners.TestListener"/>
+    </listeners>
     <test name="Login Tests">
         <classes>
             <class name="Practice.LoginTest"/>
