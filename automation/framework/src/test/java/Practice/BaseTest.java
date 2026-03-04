@@ -4,6 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+@Listeners(Practice.listeners.TestListener.class)
 public class BaseTest {
 
     @BeforeMethod
