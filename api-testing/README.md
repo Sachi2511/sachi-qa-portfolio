@@ -67,8 +67,11 @@ If you're a reviewer:
 3. Explore any **Postman collections** (if included) to see the actual requests.  
 
 ---
-##  OAuth 2.0 diagram
-[📄 View the diagram (PDF)](./api-testing/OAUTH 2.0 - Simplified.pdf)
+## 🔐 OAuth 2.0 Authorization Code Flow (Simplified Diagram)
+
+A visual explanation of the OAuth 2.0 flow, showing how authorization code, token exchange, and protected resource access work.
+
+[📄 View OAuth 2.0 – Simplified (PDF)](./OAUTH%202.0%20-%20Simplified.pdf)
 
 ---
 
