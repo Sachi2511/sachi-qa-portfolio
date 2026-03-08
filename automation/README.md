@@ -3,6 +3,15 @@
 This section contains my Java + Selenium + TestNG automation framework.
 It is kept separate from the manual UI/API testing sprint to clearly demonstrate automation skills.
 
+## 🎥 Automation Demo (YouTube)
+
+Watch the end‑to‑end Selenium automation demo here:  
+👉 **[YouTube Video Link](https://youtu.be/5SgnmkcjBAY)**
+
+This video shows the execution of my Selenium WebDriver test for the Swag Labs application.  
+The test is triggered from the command line using Maven (`mvn test`), demonstrating a CI/CD‑ready workflow similar to Jenkins, GitHub Actions, and Azure DevOps pipelines.  
+The flow includes login validation, product selection, cart verification, checkout steps, and ExtentReports‑based reporting.
+
 ## 🔹 Components
 
 - [Page Object Model](docs/page_object_model.md)
