@@ -10,8 +10,7 @@ import org.openqa.selenium.By;
  * approaches for handling unstable attributes, nested DOM structures,
  * and dynamic UI elements.
  *
- * Each method solves a real-world locator challenge that testers face
- * when static locators are not reliable.
+ * Each method solves a real-world locator challenge when static locators are not reliable.
  */
 public class DynamicLocators {
 
