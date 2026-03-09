@@ -12,6 +12,27 @@ This video shows the execution of my Selenium WebDriver test for the Swag Labs a
 The test is triggered from the command line using Maven (`mvn test`), demonstrating a CI/CD‑ready workflow similar to Jenkins, GitHub Actions, and Azure DevOps pipelines.  
 The flow includes login validation, product selection, cart verification, checkout steps, and ExtentReports‑based reporting.
 
+Watch the Parallel Execution Demo (3 Selenium Tests running simultaneously):
+👉 **[YouTube Video Link](https://youtu.be/mluwpqzVyF4)**
+This video demonstrates parallel execution of Selenium WebDriver tests using Java, TestNG, and Maven, showcasing how multiple automated tests can run simultaneously for faster, scalable execution. The setup mirrors real CI/CD pipelines and highlights how this framework is designed for modern automation environments.
+The suite includes three independent tests, each validating a different functional area of the Swag Labs application:
+Test 1 — End‑to‑End User Journey
+A complete flow covering login, adding a product to the cart, and proceeding to checkout. This test represents a typical high‑value regression scenario and demonstrates stable UI automation.
+Test 2 — Cart Item Count Verification
+A focused functional test that adds a single item to the cart and asserts that exactly one item is present. This ensures cart logic and state management work as expected.
+Test 3 — Sorting by Price (Low → High)
+A UI behaviour test that applies the “Price: Low to High” filter and verifies that products are sorted correctly. This validates both UI updates and underlying sorting logic.
+Parallel Execution + Maven Command Line
+All tests are executed in parallel using TestNG’s configuration and a ThreadLocal WebDriver setup.
+The video also shows the suite being triggered from the command line using Maven (mvn test), demonstrating how easily it integrates with CI/CD tools such as Jenkins, GitHub Actions, Azure DevOps, and GitLab CI.
+What This Demonstrates
+- Parallel‑safe automation framework design
+- Clean separation of tests using TestNG
+- ThreadLocal WebDriver for concurrency
+- CI/CD‑ready execution using Maven
+- Practical validation of login, cart, and sorting features
+This video forms part of my automation portfolio and complements my manual UI/API testing work by demonstrating real‑world automation skills, framework structure, and scalable execution.
+
 ## 🔹 Components
 
 - [Page Object Model](docs/page_object_model.md)
