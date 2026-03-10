@@ -30,7 +30,7 @@ public class Login {
     /**
      * Generic login method for Data-Driven Testing
      */
-    public void loginDDT(String username, String password) {
+    public void login(String username, String password) {
         actions.type(usernameInput, username);
         actions.type(passwordInput, password);
         actions.click(loginButton);
