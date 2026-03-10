@@ -32,7 +32,7 @@ These documents represent planning and strategy activities that apply to the ent
 ---
 
 ## 2️⃣ /jira-workflow – Sprint‑Based Testing Workflow  
-This folder simulates a real Jira sprint cycle, including requirements, test design, execution, and defect management.
+This folder simulates a real Jira sprint cycle, including requirements, test design, execution, and defect management. 
 /jira-workflow ├── User-Stories.md ├── Acceptance-Criteria.md ├── Test-Scenarios.md ├── Test-Cases.md ├── Linked-Test-Cases.md ├── Test-Execution-Report.md ├── Defects.md ├── Test-Summary-Report.md  ├── README.md
 
 ### What this folder shows
@@ -85,7 +85,7 @@ automation
 ---
 
 ## 4️⃣ /api-testing – API Test Cases & Defect Reporting  
-This folder contains API test cases, defects, and supporting documentation for validating the Login API.
+This folder contains API test cases, defects, and supporting documentation for validating the Login API. 
 /api-testing
 ├── Login_API_Test_Cases.md
 ├── Login_API_Bug.md
@@ -99,7 +99,7 @@ What this folder shows
 - Hybrid QA capability beyond UI testing
 ---
 ## 5️⃣ /sql-testing – SQL Queries for Data Validation & Backend Verification
-This folder contains SQL queries used for backend data validation, test data setup, and defect investigation. These queries support UI and API testing by ensuring that the application’s database behaves correctly and consistently with business rules.
+This folder contains SQL queries used for backend data validation, test data setup, and defect investigation. These queries support UI and API testing by ensuring that the application’s database behaves correctly and consistently with business rules. 
 /sql-testing
 ├── basic-queries.sql
 ├── joins-and-aggregations.sql
@@ -188,7 +188,7 @@ This demonstrates a complete hybrid QA skillset across UI, API, and database lay
 
 # 👋 About Me
 
-I am a Manual and Automation QA Tester. I hold a **Master of Science in Information Technology** and I am **ISTQB Foundation Level certified**
+I am a Manual and Automation QA Tester. I hold a **Master of Science in Information Technology** and I am **ISTQB Foundation Level certified**.
 
 This portfolio is part of my ongoing effort to demonstrate:
 - Professional QA thinking  
