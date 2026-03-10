@@ -37,31 +37,33 @@ The video also shows the suite being triggered from the command line using Maven
   ---
 
 ## 📁 Framework Structure
-automation 
-├── docs 
-│   ├── extent-reports.md 
-│   ├── maven-structure.md 
-│   ├── page-object-model.md 
-│   ├── sample-tests.md 
-│   └── testng-suite.md 
-└── framework 
-    ├── pom.xml 
-    ├── testng.xml 
-    └── src 
-        ├── main/java/Practice 
-        │   ├── DriverFactory1.java 
-        │   ├── CommonActions.java 
-        │   ├── Login.java 
-        │   ├── utils 
-        │   │    └── DynamicLocators.java  
-        │   └── reporting  
-        │        ├── ExtentManager.java 
-        │        └── ExtentTestManager.java 
-        └── test/java/Practice 
-            ├── BaseTest.java 
-            ├── LoginTest.java 
-            └── listeners 
-                 └── TestListener.java 
+automation
+├── docs
+│   ├── extent-reports.md
+│   ├── maven-structure.md
+│   ├── page-object-model.md
+│   ├── sample-tests.md
+│   └── testng-suite.md
+└── framework
+    ├── pom.xml
+    ├── testng.xml
+    └── src
+        ├── main/java/Practice
+        │   ├── DriverFactory1.java
+        │   ├── CommonActions.java
+        │   ├── Login.java
+        │   ├── utils
+        │   │    ├── DynamicLocators.java
+        │   │    └── DataProviders.java   
+        │   └── reporting
+        │        ├── ExtentManager.java
+        │        └── ExtentTestManager.java
+        └── test/java/Practice
+            ├── BaseTest.java
+            ├── LoginTest.java
+            └── listeners
+                 └── TestListener.java
+
 
 ---
 ## 🔧 Key Features
