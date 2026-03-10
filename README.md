@@ -188,8 +188,7 @@ This demonstrates a complete hybrid QA skillset across UI, API, and database lay
 
 # 👋 About Me
 
-I am a Manual QA Tester actively preparing for hybrid QA roles (manual + automation), and **I am ISTQB Foundation Level certified**.
-My focus is on building real‑world, structured QA workflows that reflect how companies operate.
+I am a Manual and Automation QA Tester. I hold a **Master of Science in Information Technology** and I am **ISTQB Foundation Level certified**
 
 This portfolio is part of my ongoing effort to demonstrate:
 - Professional QA thinking  
