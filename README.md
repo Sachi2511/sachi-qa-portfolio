@@ -206,13 +206,14 @@ This portfolio is part of my ongoing effort to demonstrate:
 
 **Name:** Sachi Kayastha  
 **Location:** Staines / London (commutable)   
-**Role:** Manual QA Tester (Hybrid QA ready)
+**Role:** Manual and Automation QA Tester 
 
 ---
 
 # 📫 Connect with me
 **Email:** sachi.kayastha@gmail.com  
 **LinkedIn URL:** https://www.linkedin.com/in/sachi-kayastha-108961315  
+
 ---
 
 Thank you for reviewing my portfolio.  
