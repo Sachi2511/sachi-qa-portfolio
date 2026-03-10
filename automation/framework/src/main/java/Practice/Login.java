@@ -27,30 +27,24 @@ public class Login {
     @FindBy(id = "flash")
     private WebElement messageBanner;
 
-    // Valid login method
-    public void validLogin() {
-        actions.type(usernameInput, "tomsmith");
-        actions.type(passwordInput, "SuperSecretPassword!");
+    /**
+     * Generic login method for Data-Driven Testing
+     */
+    public void loginDDT(String username, String password) {
+        actions.type(usernameInput, username);
+        actions.type(passwordInput, password);
         actions.click(loginButton);
-
         actions.visibilityExplicitWait(messageBanner);
-        String msg = messageBanner.getText();
-
-        Assert.assertTrue(msg.contains("You logged into a secure area!"),
-                "Expected success message not found. Actual: " + msg);
     }
 
-    // Invalid login method
-    public void invalidLogin() {
-        actions.type(usernameInput, "wrongUser");
-        actions.type(passwordInput, "wrongPass");
-        actions.click(loginButton);
-
-        actions.visibilityExplicitWait(messageBanner);
-        String msg = messageBanner.getText();
-
-        Assert.assertTrue(msg.contains("Your username is invalid!") ||
-                          msg.contains("Your password is invalid!"),
-                "Expected error message not found. Actual: " + msg);
+    /**
+     * Verifies the login message based on expected text from DataProvider
+     */
+    public void verifyLoginMessage(String expectedMessage) {
+        String actualMessage = messageBanner.getText();
+        Assert.assertTrue(
+                actualMessage.contains(expectedMessage),
+                "Expected message: [" + expectedMessage + "] but found: [" + actualMessage + "]"
+        );
     }
 }
