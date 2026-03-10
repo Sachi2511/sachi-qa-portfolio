@@ -46,8 +46,8 @@ This folder simulates a real Jira sprint cycle, including requirements, test des
 ### 3️⃣/automation – Selenium + Java + TestNG Framework (Hybrid QA Section)
 This folder contains a sample UI automation framework demonstrating hybrid QA capability.
 
-automation 
-├── docs 
+automation
+├── docs
 │   ├── extent-reports.md 
 │   ├── maven-structure.md 
 │   ├── page-object-model.md 
@@ -62,8 +62,9 @@ automation
         │   ├── CommonActions.java 
         │   ├── Login.java 
         │   ├── utils 
-        │   │    └── DynamicLocators.java  
-        │   └── reporting  
+        │   │    ├── DynamicLocators.java 
+        │   │    └── DataProviders.java   
+        │   └── reporting 
         │        ├── ExtentManager.java 
         │        └── ExtentTestManager.java 
         └── test/java/Practice 
@@ -71,6 +72,7 @@ automation
             ├── LoginTest.java 
             └── listeners 
                  └── TestListener.java 
+
                 
 ---
 
