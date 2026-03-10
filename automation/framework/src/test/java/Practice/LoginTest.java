@@ -4,17 +4,12 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    @Test
-    public void validLoginTest() {
-        DriverFactory1.getDriver().get("https://the-internet.herokuapp.com/login");
-        Login login = new Login();
-        login.validLogin();
-    }
+  @Test(dataProvider = "loginData", dataProviderClass = DataProviders.class)
+public void loginDDT(String username, String password, String expectedMessage) {
+    DriverFactory1.getDriver().get("https://www.saucedemo.com/");
 
-    @Test
-    public void invalidLoginTest() {
-        DriverFactory1.getDriver().get("https://the-internet.herokuapp.com/login");
-        Login login = new Login();
-        login.invalidLogin();
-    }
+    Login login = new Login();
+    login.login(username, password);
+    login.verifyLoginMessage(expectedMessage);
+}
 }
